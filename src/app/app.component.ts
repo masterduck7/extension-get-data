@@ -1,5 +1,6 @@
 import { Component } from "@angular/core";
 import { RouterOutlet } from "@angular/router";
+import App from "../extension/app";
 
 @Component({
 	selector: "app-root",
@@ -10,4 +11,8 @@ import { RouterOutlet } from "@angular/router";
 })
 export class AppComponent {
 	title = "data-extension";
+
+	getData() {
+		new App().getData();
+	}
 }

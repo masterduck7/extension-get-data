@@ -1,0 +1,50 @@
+.extension-container {
+	width: 300px;
+	height: auto;
+
+	padding: 16px;
+	border-radius: 10px;
+	background-color: #edc79b;
+}
+
+.extension-title {
+	text-align: center;
+	font-size: 16px;
+	font-weight: bolder;
+}
+
+.extension-subtitle {
+	text-align: left;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.extension-app {
+	border: 0.5px solid black;
+	border-radius: 8px;
+
+	padding: 4px;
+}
+
+.extension-buttons {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.extension-button {
+	border-radius: 8px;
+	padding: 8px;
+
+	cursor: pointer;
+
+	color: black;
+	background-color: white;
+	border-color: black;
+}
+
+.extension-button:hover {
+	color: white;
+	background-color: black;
+	border-color: black;
+}
